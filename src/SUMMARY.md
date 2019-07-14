@@ -10,8 +10,6 @@
     - [web3专题](mytopic/web3.md)
     - [eth2.0 专题](mytopic/eth2.md)
 
-- [Consensus and crypto](consensus/index.md)
-    - [图解密码技术第三版](consensus/tujiecrypto/index.md)
 
 
 - [Algorithm](algorithm/index.md)
