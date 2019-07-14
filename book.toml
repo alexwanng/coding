@@ -1,0 +1,8 @@
+[book]
+title = "Knowledge Management Base"
+description = "A description"
+author = "The Rust Community"
+
+[output.html.playpen]
+editable = true
+editor = "ace"
