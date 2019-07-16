@@ -29,7 +29,6 @@ function playpen_text(playpen) {
     var playpens = Array.from(document.querySelectorAll(".playpen"));
     if (playpens.length > 0) {
         fetch_with_timeout("https://play.rust-lang.org/meta/crates", {
-        //fetch_with_timeout("http://localplay.rust-lang.org:5000/meta/crates", {
             headers: {
                 'Content-Type': "application/json",
             },
@@ -118,9 +117,8 @@ function playpen_text(playpen) {
         }
 
         result_block.innerText = "Running...";
-        
+
         fetch_with_timeout("https://play.rust-lang.org/evaluate.json", {
-        //fetch_with_timeout("http://localplay.rust-lang.org:5000/evaluate.json", {
             headers: {
                 'Content-Type': "application/json",
             },

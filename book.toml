@@ -2,7 +2,22 @@
 title = "Knowledge Management Base"
 description = "A description"
 author = "The Rust Community"
+src = "coding_src"
+
+[output.html]
+mathjax-support = true
+# theme = "theme"
+# additional-css = ["theme/custom.css"]
 
 [output.html.playpen]
 editable = true
 editor = "ace"
+
+[output.html.search]
+limit-results = 200
+#use-boolean-and = true
+#boost-title = 2
+#boost-hierarchy = 2
+#boost-paragraph = 1
+#expand = true
+heading-split-level = 2
