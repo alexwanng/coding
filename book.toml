@@ -19,5 +19,5 @@ limit-results = 200
 #boost-title = 2
 #boost-hierarchy = 2
 #boost-paragraph = 1
-#expand = true
-heading-split-level = 2
+expand = false
+heading-split-level = 1
