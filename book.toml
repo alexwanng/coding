@@ -13,6 +13,10 @@ mathjax-support = true
 editable = true
 editor = "ace"
 
+[output.html.fold]
+## enable sidebar folding feature
+enable = true
+
 [output.html.search]
 limit-results = 200
 #use-boolean-and = true
